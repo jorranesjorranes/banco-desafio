@@ -13,7 +13,7 @@ import jakarta.persistence.Table;
 public class UsuarioModel {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String nome;
 	private String email;
